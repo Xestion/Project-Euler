@@ -9,6 +9,7 @@ public class p19 {
 
         int day = 3;
         int count = 0;
+        //january
         for (int i = 1; i <= 100;) {
 
             if (day == 1) {
@@ -26,7 +27,7 @@ public class p19 {
 
             }
         }
-        //february??
+        //february
         day = 6;
         for (int i = 1; i <= 100;) {
 
@@ -45,7 +46,7 @@ public class p19 {
 
             }
         }
-        // bruh march
+        //march
         day = 6;
 
         for (int i = 1; i <= 100;) {
@@ -103,7 +104,7 @@ public class p19 {
 
             }
         }
-        //gay pride month
+        //june
         day = 7;
 
         for (int i = 1; i <= 100;) {
@@ -143,7 +144,7 @@ public class p19 {
 
             }
         }
-        //school
+        //august
         day = 5;
         for (int i = 1; i <= 100;) {
 
@@ -205,10 +206,14 @@ public class p19 {
         for (int i = 1; i <= 100;) {
 
             if (day == 1) {
+
                 count++;
             }
+
             i++;
+
             if ((i) % 4 == 0) {
+
                 day += 2;
             } else {
                 day++;
@@ -219,15 +224,16 @@ public class p19 {
 
             }
         }
-        //dickcember
+        //december
         day = 1;
         for (int i = 1; i <= 100;) {
-            System.out.println("19" + i + ":0" + day);
+
             if (day == 1) {
                 count++;
             }
 
             i++;
+
             if ((i) % 4 == 0) {
                 day += 2;
             } else {
@@ -239,6 +245,7 @@ public class p19 {
 
             }
         }
+
         System.out.println(count);
     }
 
